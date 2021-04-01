@@ -1,0 +1,268 @@
+.s{
+      font-family: Chiller;
+      font-size: 35px;
+      float: left;
+      margin: 0;
+      padding: 0;
+      animation: animate 1s linear infinite;
+    }
+li{
+  list-style: none;
+  line-height: 2;
+}
+     span:nth-child(1)
+    {
+      animation-delay: 0s;
+
+    }
+     span:nth-child(2)
+    {
+      animation-delay: 0.25s;
+
+    }
+     span:nth-child(3)
+    {
+      animation-delay: 0.5s;
+
+    }
+     span:nth-child(4)
+    {
+      animation-delay: 0.75s;
+
+    }
+     span:nth-child(5)
+    {
+      animation-delay: 1s;
+
+    }
+     span:nth-child(6)
+    {
+      animation-delay: 1.25s;
+
+    }
+        li a{
+            margin-left: 20px;
+            font-size: 20px;
+            margin-top: 5px;
+
+      animation: animate 2s linear infinite;
+    }
+        @keyframes animate {
+      0%,100%
+      {
+        color: #fff;
+        text-shadow: 5 20 10px #00b3ff,
+             
+      }
+      0%,50%
+      {
+        color: khaki;
+        
+      }
+    }
+    .centertext h1 {
+  position: relative;
+    text-align: center;
+    font-size: 35px;
+    margin-top: 10px;
+    color: red;
+    font-weight: bold;
+    animation: textanimation 2s;
+
+}
+@keyframes textanimation {
+    0% {
+        letter-spacing: 10px;
+    }
+    100% {
+        letter-spacing: 1px;
+    }
+}
+.ha{
+  width: 200px;
+  position: relative;
+
+}
+.text{
+  width: 400px;
+  margin-left: 10px;
+  float: left;
+
+}
+.about{
+  font-size: 30px;
+  color: red;
+/*  animation: type 3s; 
+      overflow: hidden;
+      white-space: nowrap;
+      animation: type 5s infinite;
+*/
+}
+  @keyframes type{
+      0%{
+        width: 0ch;
+      }
+      100%{
+        width: 22ch;
+        color: blue;
+      }
+}
+.t1{
+  margin-top: 20px;
+   font-size: 18px;
+}
+.b1{
+  background-color: khaki;
+  padding: 10px; 
+  margin-top: 20px;
+
+} 
+#contact{
+
+  margin-left: 140px;
+  margin-top: 20px;
+   width: 450px;
+    height: 400px;
+    
+}
+ .main{
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+.main h1{
+  position: relative;
+  height: auto;
+  width: 550px;
+  left: 50%;
+  transform: translateX(-50%);
+  margin:5% 0 2% 0;
+  text-align: center;
+  font-size: 2.8em;
+  font-weight: 650;
+  letter-spacing: 1.5px;
+  color:#017bf5;
+  border-left: 5px solid #017bf5;
+  border-right: 5px solid #017bf5;
+  background:rgba(0, 0, 0, 0.05);
+}
+.main p{
+  position: relative;
+  height: auto;
+  width: 100%;
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.5em;
+  letter-spacing: 1px;
+  color: #777;
+}
+.main .gallery{
+  position: relative;
+  height: auto;
+  width: 90%;
+  margin: auto;
+  padding: 45px 0;
+  display: grid;
+  grid-template-columns: auto auto auto auto; 
+  grid-gap: 2vh;
+  grid-auto-flow: dense;
+}
+.main .gallery .img{
+  position: relative;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.9 );
+  border-radius: 2px;
+}
+.main .gallery .img:first-child{
+  grid-column-start: span 2;
+  grid-row-start: span 2;
+}
+.main .gallery .img:nth-child(2n){
+  grid-row-start: span 2;
+}
+.main .gallery .img:nth-child(4n){
+  grid-column-start: span 2;
+  grid-row-start: span 2;
+}
+.main .gallery .img:nth-child(6n){
+  grid-row-start: span 1;
+}
+.main .gallery .img:nth-child(8n){
+  grid-column-start: span 1;
+  grid-row-start: span 1;
+}
+.main .gallery .img img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  filter: brightness(0.5) grayscale(100);
+  border-radius: 2px;
+  transition: 0.3s ease-in-out;
+}
+.main .gallery .img:hover img{
+  filter: brightness(1) grayscale(0);
+}
+
+
+.wave{
+  position: absolute;
+  margin-top: -290px;
+  bottom: 0;
+  left: 0;
+}
+
+      .autoabout{
+      color:  #80ff00;
+      margin-top: 40px;
+      margin-left: 0px;
+      animation: type 3s; 
+      overflow: hidden;
+      white-space: nowrap;
+      animation: type 5s infinite;
+    }
+    @keyframes type{
+      0%{
+        width: 0ch;
+      }
+      100%{
+        width: 29ch;
+      }
+      #f1{
+  color: red;
+  margin-left: 120px;
+  font-size: 35px;
+  margin-top: 60px;
+   animation: typee 3s; 
+      overflow: hidden;
+      white-space: nowrap;
+      animation: type 5s infinite;
+ 
+}
+@keyframes typee{
+      0%{
+        width: 0ch;
+      }
+      100%{
+        width: 22ch;
+        color: blue;
+      }
+}
+.hh1{
+  width: 1250px;
+   margin-left: 40px; 
+   margin-top: 20px;
+}
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: red;
+   color: white;
+   text-align: center;
+}
+
+
+

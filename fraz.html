@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style>
+		body{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			min-height: 100vh;
+			background-color: #000;
+		}
+		h1{
+			position: relative;
+			font-size: 8em;
+			color: #222;
+			text-transform: uppercase;
+			border-bottom: 16px solid #222;
+			letter-spacing: 0.05em;
+			line-height: 1.2em;
+		}
+		h1:before{
+			content: attr(data-text);
+			position: absolute;
+			width: 100%
+			color red;
+			overflow: hidden;
+			border-bottom: 16px solid red;
+			animation: animate 5s linear infinite;
+		}
+		@keyframes animte{
+			0%{
+				width: 0;
+			}
+			100%{
+				width: 0;
+			}
+		}
+	</style>
+</head>
+<body>
+	<h1 data-text="loading..">loading</h1>
+
+</body>
+</html>

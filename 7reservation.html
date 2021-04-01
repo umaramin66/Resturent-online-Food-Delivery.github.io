@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Home</title>
+   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+        <link rel="stylesheet" type="text/css" href="style1.css">
+
+
+  <style>
+.footer{
+    background-color: #000d33
+}
+.footer-inner{
+  background-color: #010302;
+}
+   /*-------------------name oder--------------------*/
+  .name1{
+    background-color: khaki;
+    color: black;
+    width: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 40px;
+    margin-top: 40px;
+    text-align: center;
+
+  }
+    .name2{
+    background-color: khaki;
+    color: black;
+    width: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 240px;
+    margin-top: -35px;
+    text-align: center;
+
+
+  }
+    .name3{
+    background-color: khaki;
+    color: black;
+    text-align: center;
+    width: 130px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+     padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 440px;
+    margin-top: -40px;
+  }
+  .area{
+
+    margin-top: 50px;
+    width: 520px;
+    height: 150px;
+    margin-left: 40px;
+    color: darkkhaki;
+  }
+  .barea{
+    background-color: khaki;
+    margin-top: 40px;
+    text-align: center;
+    margin-left: 200px;
+    padding: 10px;
+  }
+    .open-button {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 280px;
+}
+.container
+{
+  width: 1200px;
+  height: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.container .box
+{
+  position: relative;
+  width: 280px;
+  height: 400px;
+  background: #fff;
+  transition: 0.5s;
+  overflow: hidden;
+}
+.container .box img
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.container .box:before
+{
+  content: '';
+  position: absolute;
+  top: -100%;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background: #fff;
+  z-index: 1;
+  transition: 0.5s;
+}
+.container .box:after
+{
+  content: '';
+  position: absolute;
+  bottom: -100%;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  background: #fff;
+  z-index: 1;
+  transition: 0.5s;
+}
+.container:hover .box:before
+{
+  top: 0;
+}
+.container:hover .box:after
+{
+  bottom: 0;
+  transition-delay: 0.5s;
+}
+.container .box:hover:before
+{
+  top: -100%;
+}
+.container .box:hover:after
+{
+  bottom: -100%;
+}
+
+
+</style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+  <div>
+    <span class="s" style="margin-left: 15PX; margin-top:  7PX;">F</span>
+    <span class="s" style=" margin-top:  7PX;">O</span>
+    <span class="s" style=" margin-top:  7PX;">O</span>
+    <span class="s" style=" margin-top:  7PX;">D</span>
+    <span class="s" style=" margin-top:  7PX;">E</span>
+    <span class="s" style=" margin-top:  7PX;">Y </span>      
+  </div>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav mx-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="home.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="1about.html">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="4menu.html">Menu</a>
+      </li> 
+       <li class="nav-item">
+        <a class="nav-link" href="3contact.html">Contact</a>
+      </li> 
+       <li class="nav-item">
+        <a class="nav-link" href="7reservation.html"> Reservations</a>
+      </li> 
+       <li class="nav-item">
+        <a class="nav-link" href="5gallery.html">Gallery</a>
+      </li> 
+       <li class="nav-item">
+        <a class="nav-link" href="6team.html">Team</a>
+      </li>    
+       <li class="nav-item">
+        <a class="nav-link" href="Feedback.html">Feedback</a>
+      </li>  
+    </ul>
+  </div>  
+</nav>
+
+
+  <img src="images/b2.jpg" style="width: 100%; height: auto; margin-top: -20px;">
+
+
+<div class="container mt-5">
+      <div class="box">
+        <div class="imgBx">
+          <img src="images/e5.jpeg">
+        </div>
+        <div class="content">
+          <h2>Title</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua.</p>
+          <a href="#">Read More</a>
+        </div>
+      </div>
+      <div class="box">
+        <div class="imgBx">
+          <img src="images/e2.jpeg">
+        </div>
+        <div class="content">
+          <h2>Title</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua.</p>
+          <a href="#">Read More</a>
+        </div>
+      </div>
+      <div class="box">
+        <div class="imgBx">
+          <img src="images/e3.jpeg">
+        </div>
+        <div class="content">
+          <h2>Title</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua.</p>
+          <a href="#">Read More</a>
+        </div>
+      </div>
+      <!-- <div class="box">
+        <div class="imgBx">
+          <img src="images/e1.jpeg">
+        </div>
+        <div class="content">
+          <h2>Title</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua.</p>
+          <a href="#">Read More</a>
+        </div>
+      </div> -->
+    </div>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 mb-5 ">
+       
+            <div class="name1">Your Name</div>
+            <div class="name2">E-mail</div>
+            <div class="name3">Contact No</div>
+
+            <textarea class="area" rows="4" cols="50">some text</textarea><br>
+            <button class="b1 ml-5" style="">Submit</button>
+        
+      </div>
+            <br>
+      <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 text-center my-auto">
+        <div style="text-align: center; font-size: 20px;" ><b>Private Dining & Events</b></div>
+          <hr>
+          <div class="mb-5">Whatever your event or celebration, we are here to make your special day a truly memorable one. Our private dining experts are more than happy to create custom floral arrangements meal.</div>
+      </div>
+    </div>
+  </div>
+
+
+      <div class="container-fluid">
+    <div class="row">
+      <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+         <div style="font-size: 20px; text-align: center; margin-bottom: 15px;"><b>Event booking</b></div>
+          <div class="text-center mb-5">In case of any event booking, you can either give us a call on any branch specific number for detail or you can fill the form below and our representative will get back to you. While filling the form, kindly make sure to provide all the necessary information like what kind of event you want to organize and if decoration will be needed or not.
+
+       </div>
+      </div>
+      <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12  text-center my-auto">
+        <div class="about" style="color: black; font-size: 20px;"><b>Contact by Phone or E-mail</b></div>
+                  <hr>
+
+          <div class="text-center">You can reserve the place over the phone or send us the E-mail also</div>
+             <div class="text-center mb-5">03174867712<br>hanzlakamboh2492@gmail.com</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer pt-5">
+  <div class="container">
+    <div class="row text-white pb-4">
+      <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+        <ul>
+          <li><h3>AMERICAN FOOD DELIVERY </h3></li>
+          <li>KFC - Johar Town,</li>
+          <li>OPTP - T Block,</li>
+          <li>Subway - Jail Road</li>
+          <li>Foodeez</li>
+          <li>Cafe Aylanto - Dha</li>
+        </ul>
+      </div>
+      <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+        <ul>
+          <li><h3>PAKISTANI FOOD DELIVERY </h3></li>
+          <li>Karachi Hot N Spicy - DHA,</li>
+          <li>Karachi Biryani - Barkat Market</li>
+          <li>What a Paratha - Gulberg</li>
+          <li>Karachi Red Rock - Gulberg</li>
+          <li>Maro Tandoors - Model Town</li>
+        </ul>
+      </div>
+      <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+        <ul>
+          <li><h3>PAKISTANI FOOD DELIVERY </h3></li>
+          <li>Karachi Hot N Spicy - DHA,</li>
+          <li>Karachi Biryani - Barkat Market</li>
+          <li>What a Paratha - Gulberg</li>
+          <li>Karachi Red Rock - Gulberg</li>
+          <li>Maro Tandoors - Model Town</li>
+        </ul>
+      </div>
+    </div> 
+  </div>
+  <div class="container-fluid">
+    <div class="row footer-inner pt-4 pb-2">
+      <div class="col-12">
+        <div class="text-white text-center">
+          <p>Copyright 2020 Foodey by M.Hanzla</p>
+        </div> 
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

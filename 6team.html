@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Team</title>
+   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="style1.css">
+        
+
+
+  <style>
+    
+  .footer{
+    background-color: #000d33
+}
+.footer-inner{
+  background-color: #010302;
+}
+.container
+{
+  position: relative;
+  width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.container .box
+{
+  position: relative;
+  width: 280px;
+  height: 400px;
+  margin: 20px 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.container .box .imgBx
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  clip-path: circle(400px at center 100px);
+  transition: 0.5s;
+  transition-delay: 0.5s;
+}
+.container .box:hover .imgBx
+{
+  clip-path: circle(80px at center 100px);
+  transition-delay: 0s;
+}
+.container .box .imgBx img
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.container .box .content
+{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 55%;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+}
+.container .box .content h2
+{
+  margin: 0;
+  padding: 0;
+}
+.container .box .content a
+{
+  text-decoration: none;
+  background: #000;
+  color: #fff;
+  padding: 5px;
+  display: inline-block;
+}
+.container .box .content h2,
+.container .box .content p,
+.container .box .content a
+{
+  opacity: 0;
+  transition: 0.5s;
+  transform: translateY(20px);
+}
+.container .box:hover .content h2
+{
+  opacity: 1;
+  transform: translateY(0);
+  transition-delay: 0.5s
+}
+.container .box:hover .content p
+{
+  opacity: 1;
+  transform: translateY(0);
+  transition-delay: 0.7s
+}
+.container .box:hover .content a
+{
+  opacity: 1;
+  transform: translateY(0);
+  transition-delay: 0.9s
+}
+
+  </style>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+  <div>
+    <span class="s" style="margin-left: 15PX; margin-top:  7PX;">F</span>
+    <span class="s" style=" margin-top:  7PX;">O</span>
+    <span class="s" style=" margin-top:  7PX;">O</span>
+    <span class="s" style=" margin-top:  7PX;">D</span>
+    <span class="s" style=" margin-top:  7PX;">E</span>
+    <span class="s" style=" margin-top:  7PX;">Y </span>      
+  </div>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav mx-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="home.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="1about.html">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="4menu.html">Menu</a>
+      </li> 
+       <li class="nav-item">
+        <a class="nav-link" href="3contact.html">Contact</a>
+      </li> 
+       <li class="nav-item">
+        <a class="nav-link" href="7reservation.html"> Reservations</a>
+      </li> 
+       <li class="nav-item">
+        <a class="nav-link" href="5gallery.html">Gallery</a>
+      </li> 
+       <li class="nav-item">
+        <a class="nav-link" href="6team.html">Team</a>
+      </li>    
+       <li class="nav-item">
+        <a class="nav-link" href="Feedback.html">Feedback</a>
+      </li>  
+    </ul>
+  </div>  
+</nav>
+
+    
+      <img src="images/chefimg2.jpg" style="width: 100%; height: auto; margin-top: -20px;">
+        <svg class="wave" sxmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+  <path fill="#fff" fill-opacity="1" d="M0,64L34.3,53.3C68.6,43,137,21,206,26.7C274.3,32,343,64,411,85.3C480,107,549,117,617,112C685.7,107,754,85,823,101.3C891.4,117,960,171,1029,176C1097.1,181,1166,139,1234,128C1302.9,117,1371,139,1406,149.3L1440,160L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"></path>
+</svg>
+
+  <div class="centertext" style="margin-top: -180px;"><h1 style=" color:  #86592d;">About Our Chef Team</h1></div>  
+       <hr class="ha">
+
+       <br><br>
+
+             <img src="images/1.jpg" style="width: 100%; margin-bottom: 20px; height: auto; margin-top: -20px;">
+
+      <div class="container">
+      <div class="box">
+        <div class="imgBx">
+          <img src="images/chef-4.jpg">
+        </div>
+        <div class="content">
+          <h2>Chef-Owner </h2>
+          <p>A head chef is a highly skilled professional cook who oversees the operations of a restaurant or dining facility. </p>
+          <a href="#">Read More</a>
+        </div>
+      </div>
+      <div class="box">
+        <div class="imgBx">
+          <img src="images/chef-3.jpg">
+        </div>
+        <div class="content">
+          <h2>Executive Chef</h2>
+          <p>Executive chefs will also work outside of the kitchen in developing new recipes, planning menus, hiring</p>
+          <a href="#">Read More</a>
+        </div>
+      </div>
+      <div class="box">
+        <div class="imgBx">
+          <img src="images/chef-5.jpg">
+        </div>
+        <div class="content">
+          <h2>Sous Chef </h2>
+          <p>A Sous Chef is responsible for planning and managing food preparation in restaurant kitchens.</p>
+          <a href="#">Read More</a>
+        </div>
+      </div>
+    </div>
+
+
+  
+  <!-- <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-4">   
+        <div class="card">
+          <img class="card-img-top" src="images/chef-4.jpg" style="width:100% ">
+            <div class="card-body">
+             <h4 class="card-title">Chef-Owner </h4>
+               <p class="card-text">A head chef is a highly skilled professional cook who oversees the operations of a restaurant or dining facility. They are responsible for the food that comes out of a kitchen, from conception to execution.</p>
+           </div>
+       </div>
+     </div>
+  
+      <div class="col-sm-4">
+       <div class="card">
+         <img class="card-img-top" src="images/chef-3.jpg" style="width:100%;">
+         <div class="card-body">
+           <h4 class="card-title">Executive Chef </h4>
+             <p class="card-text">Executive chefs will also work outside of the kitchen in developing new recipes, planning menus, hiring or training food preparation workers, maintaining an inventory of food supplies, following a food </p>
+        </div>
+      </div>
+    </div>
+      <div class="col-sm-4">
+        <div class="card" >
+         <img class="card-img-top" src="images/chef-5.jpg" style="width:100%;">
+           <div class="card-body">
+             <h4 class="card-title">Sous Chef </h4>
+              <p class="card-text">A Sous Chef is responsible for planning and managing food preparation in restaurant kitchens. Known as the assistant to the head chef or the head chef's second in command</p>
+            </div>
+         </div>
+      </div>
+    </div>
+    <br>
+</div> -->
+
+         <div class="centertext" style="margin-top: 30px;"><h1 style=" color:  #86592d;">About Our Patnership</h1></div>  
+       <hr class="ha">
+
+          <div class="container">
+      <div class="box">
+        <div class="imgBx">
+          <img src="images/one.jpeg">
+        </div>
+        <div class="content">
+          <h2>John Doe </h2>
+          <p>A head chef is a highly skilled professional cook who oversees the operations of a restaurant or dining facility. </p>
+          <a href="#">Read More</a>
+        </div>
+      </div>
+      <div class="box">
+        <div class="imgBx">
+          <img src="images/on2.jpg">
+        </div>
+        <div class="content">
+          <h2>Jhoney</h2>
+          <p>Executive chefs will also work outside of the kitchen in developing new recipes, planning menus, hiring</p>
+          <a href="#">Read More</a>
+        </div>
+      </div>
+      <div class="box">
+        <div class="imgBx">
+          <img src="images/on1.jpeg">
+        </div>
+        <div class="content">
+          <h2>Daylod </h2>
+          <p>A Sous Chef is responsible for planning and managing food preparation in restaurant kitchens.</p>
+          <a href="#">Read More</a>
+        </div>
+      </div>
+    </div>
+
+<!--  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-4">   
+        <div class="card">
+          <img class="card-img-top" src="images/one.jpeg" style="width:100% ">
+            <div class="card-body">
+             <h4 class="card-title">John Doe</h4>
+               <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+           </div>
+       </div>
+     </div>
+  
+      <div class="col-sm-4">
+       <div class="card">
+         <img class="card-img-top" src="images/on2.jpg" style="width:100%;">
+         <div class="card-body">
+           <h4 class="card-title">John Doe</h4>
+             <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+        </div>
+      </div>
+    </div>
+      <div class="col-sm-4">
+        <div class="card" >
+         <img class="card-img-top" src="images/on1.jpeg" style="width:100%;">
+           <div class="card-body">
+             <h4 class="card-title">John Doe</h4>
+              <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+            </div>
+         </div>
+      </div>
+    </div>
+    <br>
+</div>
+ -->
+
+<div style="max-width: 1334px;">
+  <div class="row" >
+      <div class="col-12">
+         <div class="container-fluid" style="background-color: skyblue; text-align: center; color: white; margin-top: 20px; font-size: 18px; padding-top: 30px; padding-bottom: 30px;">
+           <div>want join</div>
+           <p>Be a part of us?</p>
+                <button type="button" class="btn btn-success btn-lg" id="myBtn">Click Here</button>
+         </div>
+      
+    </div>
+    
+  </div>
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-body" style="padding:40px 50px;">
+          <form role="form">
+            <div class="form-group">
+              <label for="usrname"><span class="glyphicon glyphicon-user"></span> Username</label>
+              <input type="text" class="form-control" id="usrname" required placeholder="Enter email">
+            </div>
+             <div class="form-group">
+              <label for="psw"><span class="glyphicon glyphicon-eye-open"></span> Email</label>
+              <input type="text" class="form-control" id="psw" required placeholder="Enter name">
+            </div>
+
+            <div class="form-group">
+              <label for="psw"><span class="glyphicon glyphicon-eye-open"></span> Password</label>
+              <input type="password" class="form-control" id="psw" required placeholder="Enter password">
+            </div>
+              <button type="submit" class="btn btn-success btn-block"> Login</button>
+          </form>
+        </div>
+      </div>
+      
+    </div>
+  </div> 
+</div>
+ 
+<script>
+$(document).ready(function(){
+  $("#myBtn").click(function(){
+    $("#myModal").modal();
+  });
+});
+</script>
+</div>
+
+
+<div class="footer pt-5">
+  <div class="container">
+    <div class="row text-white pb-4">
+      <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+        <ul>
+          <li><h3>AMERICAN FOOD DELIVERY </h3></li>
+          <li>KFC - Johar Town,</li>
+          <li>OPTP - T Block,</li>
+          <li>Subway - Jail Road</li>
+          <li>Foodeez</li>
+          <li>Cafe Aylanto - Dha</li>
+        </ul>
+      </div>
+      <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+        <ul>
+          <li><h3>PAKISTANI FOOD DELIVERY </h3></li>
+          <li>Karachi Hot N Spicy - DHA,</li>
+          <li>Karachi Biryani - Barkat Market</li>
+          <li>What a Paratha - Gulberg</li>
+          <li>Karachi Red Rock - Gulberg</li>
+          <li>Maro Tandoors - Model Town</li>
+        </ul>
+      </div>
+      <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+        <ul>
+          <li><h3>PAKISTANI FOOD DELIVERY </h3></li>
+          <li>Karachi Hot N Spicy - DHA,</li>
+          <li>Karachi Biryani - Barkat Market</li>
+          <li>What a Paratha - Gulberg</li>
+          <li>Karachi Red Rock - Gulberg</li>
+          <li>Maro Tandoors - Model Town</li>
+        </ul>
+      </div>
+    </div> 
+  </div>
+  <div class="container-fluid">
+    <div class="row footer-inner pt-4 pb-2">
+      <div class="col-12">
+        <div class="text-white text-center">
+          <p>Copyright 2020 Foodey by M.Hanzla</p>
+        </div> 
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
